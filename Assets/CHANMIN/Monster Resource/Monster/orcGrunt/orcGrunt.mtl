@@ -1,0 +1,44 @@
+#
+# mtl file for orcGrunt.obj obj file
+#
+
+newmtl creature/orcgrunt_m/orcgrunt_m.m2_Geoset_000
+illum 2
+Kd 1.000000 1.000000 1.000000
+Ka 0.250000 0.250000 0.250000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ns 0.000000
+map_Kd orcGrunt_orcgrunt_m_03.png
+newmtl creature/orcgrunt_m/orcgrunt_m.m2_Geoset_204
+illum 2
+Kd 1.000000 1.000000 1.000000
+Ka 0.250000 0.250000 0.250000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ns 0.000000
+map_Kd orcGrunt_orcgrunt_m_03.png
+newmtl creature/orcgrunt_m/orcgrunt_m.m2_Geoset_302
+illum 2
+Kd 1.000000 1.000000 1.000000
+Ka 0.250000 0.250000 0.250000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ns 0.000000
+map_Kd orcGrunt_orcgrunt_m_03.png
+newmtl creature/orcgrunt_m/orcgrunt_m.m2_Geoset_401
+illum 2
+Kd 1.000000 1.000000 1.000000
+Ka 0.250000 0.250000 0.250000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ns 0.000000
+map_Kd orcGrunt_orcgrunt_m_03.png
+newmtl creature/orcgrunt_m/orcgrunt_m.m2_Geoset_502
+illum 2
+Kd 1.000000 1.000000 1.000000
+Ka 0.250000 0.250000 0.250000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ns 0.000000
+map_Kd orcGrunt_orcgrunt_m_03.png

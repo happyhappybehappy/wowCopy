@@ -1,0 +1,6 @@
+newmtl mat_badpalmtree_trunk01
+illum 1
+map_Kd ..\..\..\..\kalimdor\durotar\passivedoodads\trees\badpalmtree_trunk01.png
+newmtl mat_badpalmfrond05
+illum 1
+map_Kd badpalmfrond05.png

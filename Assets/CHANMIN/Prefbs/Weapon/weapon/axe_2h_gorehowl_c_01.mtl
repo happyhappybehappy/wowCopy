@@ -1,0 +1,6 @@
+newmtl mat_axe_2h_gorehowl_c_01
+illum 1
+map_Kd axe_2h_gorehowl_c_01.png
+newmtl mat_armorreflect4
+illum 1
+map_Kd ..\shield\armorreflect4.png

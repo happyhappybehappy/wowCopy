@@ -1,0 +1,574 @@
+fileFormatVersion: 2
+guid: fb57b8a21c81c8f41a63abe46c5fe96a
+ModelImporter:
+  serializedVersion: 21300
+  internalIDToNameTable:
+  - first:
+      74: 3487879778535339987
+    second: MountSwimLeft [33]
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 1
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton:
+    - name: raptor(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: creature/raptor/raptor
+      parentName: raptor(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: creature/raptor/raptor_rig
+      parentName: raptor(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: creature/raptor/raptor_bone_0
+      parentName: creature/raptor/raptor_rig
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.00000008940697, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: creature/raptor/raptor_bone_1
+      parentName: creature/raptor/raptor_bone_0
+      position: {x: 0.17006174, y: 0, z: 1.1580247}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: creature/raptor/raptor_bone_2
+      parentName: creature/raptor/raptor_bone_1
+      position: {x: -0.0035649836, y: 0, z: -0.010939956}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: creature/raptor/raptor_bone_4
+      parentName: creature/raptor/raptor_bone_2
+      position: {x: 0.39350253, y: 0, z: -0.11083114}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: creature/raptor/raptor_bone_9
+      parentName: creature/raptor/raptor_bone_4
+      position: {x: 0.3463161, y: 0, z: -0.029599905}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: creature/raptor/raptor_bone_13
+      parentName: creature/raptor/raptor_bone_9
+      position: {x: 0.3463158, y: 0, z: -0.011839747}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: creature/raptor/raptor_bone_25
+      parentName: creature/raptor/raptor_bone_13
+      position: {x: 0.36407587, y: 0, z: -0.0029599667}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: creature/raptor/raptor_bone_37
+      parentName: creature/raptor/raptor_bone_25
+      position: {x: 0.2626108, y: 0, z: 0.00026136637}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: creature/raptor/raptor_bone_5
+      parentName: creature/raptor/raptor_bone_2
+      position: {x: 0.10634213, y: 0.096829735, z: -0.07851148}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: creature/raptor/raptor_bone_10
+      parentName: creature/raptor/raptor_bone_5
+      position: {x: -0.0073638856, y: 0.07127073, z: -0.565782}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: creature/raptor/raptor_bone_14
+      parentName: creature/raptor/raptor_bone_10
+      position: {x: 0.25632212, y: -0.007311523, z: -0.23590808}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: creature/raptor/raptor_bone_26
+      parentName: creature/raptor/raptor_bone_14
+      position: {x: -0.04227817, y: 0.035191968, z: -0.1572654}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: creature/raptor/raptor_bone_38
+      parentName: creature/raptor/raptor_bone_26
+      position: {x: -0.13021332, y: 0.01376687, z: -0.0014991462}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: creature/raptor/raptor_bone_45
+      parentName: creature/raptor/raptor_bone_38
+      position: {x: -0.1028658, y: 0.045932334, z: -0.03908108}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: creature/raptor/raptor_bone_46
+      parentName: creature/raptor/raptor_bone_38
+      position: {x: -0.052311327, y: 0.14031042, z: -0.040444866}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: creature/raptor/raptor_bone_47
+      parentName: creature/raptor/raptor_bone_38
+      position: {x: -0.014281601, y: -0.07900424, z: 0.0028472692}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: creature/raptor/raptor_bone_80
+      parentName: creature/raptor/raptor_bone_26
+      position: {x: -0.06374672, y: 0.024529232, z: -0.15223333}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: creature/raptor/raptor_bone_15
+      parentName: creature/raptor/raptor_bone_10
+      position: {x: 0.25632212, y: -0.007311523, z: -0.23590808}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: creature/raptor/raptor_bone_27
+      parentName: creature/raptor/raptor_bone_15
+      position: {x: -0.04227817, y: 0.03519194, z: -0.15726534}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: creature/raptor/raptor_bone_16
+      parentName: creature/raptor/raptor_bone_10
+      position: {x: 0.12816104, y: -0.0036557466, z: -0.117954016}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: creature/raptor/raptor_bone_6
+      parentName: creature/raptor/raptor_bone_2
+      position: {x: 0.10634213, y: -0.09682972, z: -0.07851112}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: creature/raptor/raptor_bone_11
+      parentName: creature/raptor/raptor_bone_6
+      position: {x: -0.007363409, y: -0.0712704, z: -0.56578237}
+      rotation: {x: 0.03418171, y: 0.076498665, z: 0.013183896, w: 0.9963964}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: creature/raptor/raptor_bone_17
+      parentName: creature/raptor/raptor_bone_11
+      position: {x: 0.1281608, y: 0.0036557019, z: -0.11795407}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: creature/raptor/raptor_bone_18
+      parentName: creature/raptor/raptor_bone_11
+      position: {x: 0.25632164, y: 0.007311374, z: -0.23590812}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: creature/raptor/raptor_bone_28
+      parentName: creature/raptor/raptor_bone_18
+      position: {x: -0.042277694, y: -0.035191834, z: -0.15726537}
+      rotation: {x: -0.05578231, y: -0.0625202, z: 0.2897765, w: 0.9534197}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: creature/raptor/raptor_bone_39
+      parentName: creature/raptor/raptor_bone_28
+      position: {x: -0.13021389, y: -0.013766617, z: -0.0014991239}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: creature/raptor/raptor_bone_48
+      parentName: creature/raptor/raptor_bone_39
+      position: {x: -0.102865234, y: -0.045933366, z: -0.039081123}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: creature/raptor/raptor_bone_49
+      parentName: creature/raptor/raptor_bone_39
+      position: {x: -0.014281929, y: 0.07900356, z: 0.0028472096}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: creature/raptor/raptor_bone_50
+      parentName: creature/raptor/raptor_bone_39
+      position: {x: -0.05231109, y: -0.14031118, z: -0.040444866}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: creature/raptor/raptor_bone_81
+      parentName: creature/raptor/raptor_bone_28
+      position: {x: -0.16917196, y: -0.007268727, z: -0.10456584}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: creature/raptor/raptor_bone_19
+      parentName: creature/raptor/raptor_bone_11
+      position: {x: 0.25632164, y: 0.007311374, z: -0.23590812}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: creature/raptor/raptor_bone_29
+      parentName: creature/raptor/raptor_bone_19
+      position: {x: -0.042277694, y: -0.035191834, z: -0.15726534}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: creature/raptor/raptor_bone_3
+      parentName: creature/raptor/raptor_bone_1
+      position: {x: -0.07001976, y: 0, z: 0.013888955}
+      rotation: {x: -0.00000001479629, y: 0.55099875, z: 0.000000108867766, w: 0.83450615}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: creature/raptor/raptor_bone_7
+      parentName: creature/raptor/raptor_bone_3
+      position: {x: -0.09159202, y: 0, z: -0.003611803}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: creature/raptor/raptor_bone_12
+      parentName: creature/raptor/raptor_bone_7
+      position: {x: -0.14989927, y: 0.003940164, z: -0.0040750504}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: creature/raptor/raptor_bone_20
+      parentName: creature/raptor/raptor_bone_12
+      position: {x: -0.07174373, y: -0.003940164, z: -0.024469852}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: creature/raptor/raptor_bone_21
+      parentName: creature/raptor/raptor_bone_12
+      position: {x: -0.07174371, y: 0.0039401697, z: -0.024469852}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: creature/raptor/raptor_bone_22
+      parentName: creature/raptor/raptor_bone_12
+      position: {x: -0.007865906, y: 0.19144034, z: -0.15921426}
+      rotation: {x: 0.48425996, y: -0.78183347, z: -0.2068432, w: 0.33383322}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: creature/raptor/raptor_bone_30
+      parentName: creature/raptor/raptor_bone_22
+      position: {x: 0.057558257, y: 0.11577083, z: -0.30284023}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: creature/raptor/raptor_bone_31
+      parentName: creature/raptor/raptor_bone_22
+      position: {x: 0.028779102, y: 0.057885483, z: -0.15142018}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: creature/raptor/raptor_bone_32
+      parentName: creature/raptor/raptor_bone_22
+      position: {x: 0.057558257, y: 0.11577083, z: -0.30284023}
+      rotation: {x: -0.0583136, y: -0.5777273, z: -0.23193872, w: 0.780407}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: creature/raptor/raptor_bone_40
+      parentName: creature/raptor/raptor_bone_32
+      position: {x: -0.17000133, y: 0.040004134, z: -0.056902826}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: creature/raptor/raptor_bone_41
+      parentName: creature/raptor/raptor_bone_32
+      position: {x: -0.17000133, y: 0.040004134, z: -0.056902826}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: creature/raptor/raptor_bone_51
+      parentName: creature/raptor/raptor_bone_41
+      position: {x: -0.087004215, y: -0.01520133, z: -0.1022042}
+      rotation: {x: 0.18552274, y: 0.15851249, z: -0.037529524, w: 0.9690442}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: creature/raptor/raptor_bone_58
+      parentName: creature/raptor/raptor_bone_51
+      position: {x: 0.0055930614, y: -0.04740414, z: -0.17257085}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: creature/raptor/raptor_bone_52
+      parentName: creature/raptor/raptor_bone_41
+      position: {x: -0.024044484, y: -0.06807494, z: -0.093672216}
+      rotation: {x: 0.110758856, y: 0.21723147, z: 0.0072301924, w: 0.969789}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: creature/raptor/raptor_bone_59
+      parentName: creature/raptor/raptor_bone_52
+      position: {x: 0.024569482, y: -0.008151352, z: -0.13147503}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: creature/raptor/raptor_bone_53
+      parentName: creature/raptor/raptor_bone_41
+      position: {x: -0.0526945, y: 0.031157017, z: -0.1288917}
+      rotation: {x: 0.1560895, y: 0.38601902, z: 0.02949872, w: 0.9087108}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: creature/raptor/raptor_bone_60
+      parentName: creature/raptor/raptor_bone_53
+      position: {x: 0.07685278, y: -0.021193027, z: -0.12932634}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: creature/raptor/raptor_bone_83
+      parentName: creature/raptor/raptor_bone_41
+      position: {x: -0.042877436, y: -0.034252286, z: -0.15838352}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: creature/raptor/raptor_bone_85
+      parentName: creature/raptor/raptor_bone_41
+      position: {x: -0.042877436, y: -0.034252286, z: -0.15838352}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: creature/raptor/raptor_bone_23
+      parentName: creature/raptor/raptor_bone_12
+      position: {x: -0.16693833, y: 0.00024729548, z: 0.054625154}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: creature/raptor/raptor_bone_33
+      parentName: creature/raptor/raptor_bone_23
+      position: {x: -0.083763234, y: -0.0016923458, z: 0.11525679}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: creature/raptor/raptor_bone_42
+      parentName: creature/raptor/raptor_bone_33
+      position: {x: -0.09701514, y: 0.00040547177, z: 0.08837342}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: creature/raptor/raptor_bone_54
+      parentName: creature/raptor/raptor_bone_42
+      position: {x: -0.018017381, y: -0.0027346844, z: -0.043738842}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: creature/raptor/raptor_bone_84
+      parentName: creature/raptor/raptor_bone_42
+      position: {x: -0.22911675, y: -0.0029005855, z: -0.064627886}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: creature/raptor/raptor_bone_87
+      parentName: creature/raptor/raptor_bone_42
+      position: {x: -0.07112351, y: -0.0029005855, z: 0.1441785}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: creature/raptor/raptor_bone_88
+      parentName: creature/raptor/raptor_bone_42
+      position: {x: 0.030508189, y: -0.0029005855, z: 0.012058616}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: creature/raptor/raptor_bone_89
+      parentName: creature/raptor/raptor_bone_42
+      position: {x: 0.03050825, y: -0.0029005855, z: 0.012058854}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: creature/raptor/raptor_bone_79
+      parentName: creature/raptor/raptor_bone_23
+      position: {x: -0.15883386, y: -0.0041874596, z: -0.054612994}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: creature/raptor/raptor_bone_24
+      parentName: creature/raptor/raptor_bone_12
+      position: {x: -0.007865936, y: -0.19144017, z: -0.15921426}
+      rotation: {x: 0.15855324, y: 0.25598267, z: -0.06772319, w: 0.9511821}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: creature/raptor/raptor_bone_34
+      parentName: creature/raptor/raptor_bone_24
+      position: {x: 0.057558298, y: -0.11577084, z: -0.3028403}
+      rotation: {x: 0.0639861, y: -0.5674942, z: 0.20779951, w: 0.79415077}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: creature/raptor/raptor_bone_43
+      parentName: creature/raptor/raptor_bone_34
+      position: {x: -0.17000137, y: -0.04000416, z: -0.056902766}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: creature/raptor/raptor_bone_55
+      parentName: creature/raptor/raptor_bone_43
+      position: {x: -0.087004185, y: 0.01520139, z: -0.10220414}
+      rotation: {x: -0.17961487, y: 0.53129655, z: 0.14012308, w: 0.8159829}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: creature/raptor/raptor_bone_61
+      parentName: creature/raptor/raptor_bone_55
+      position: {x: 0.005593002, y: 0.04740417, z: -0.17257087}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: creature/raptor/raptor_bone_56
+      parentName: creature/raptor/raptor_bone_43
+      position: {x: -0.052694466, y: -0.031156925, z: -0.12889165}
+      rotation: {x: -0.18201396, y: 0.7299665, z: 0.011459249, w: 0.65870214}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: creature/raptor/raptor_bone_62
+      parentName: creature/raptor/raptor_bone_56
+      position: {x: 0.07685278, y: 0.021193027, z: -0.12932643}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: creature/raptor/raptor_bone_57
+      parentName: creature/raptor/raptor_bone_43
+      position: {x: -0.024044454, y: 0.068074994, z: -0.093672276}
+      rotation: {x: -0.14894123, y: 0.597566, z: 0.009215112, w: 0.78781116}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: creature/raptor/raptor_bone_63
+      parentName: creature/raptor/raptor_bone_57
+      position: {x: 0.024569482, y: 0.008151382, z: -0.13147497}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: creature/raptor/raptor_bone_82
+      parentName: creature/raptor/raptor_bone_43
+      position: {x: -0.04287746, y: 0.024505109, z: -0.15838352}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: creature/raptor/raptor_bone_86
+      parentName: creature/raptor/raptor_bone_43
+      position: {x: -0.04287746, y: 0.024505109, z: -0.15838352}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: creature/raptor/raptor_bone_44
+      parentName: creature/raptor/raptor_bone_34
+      position: {x: -0.17000137, y: -0.04000416, z: -0.056902766}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: creature/raptor/raptor_bone_35
+      parentName: creature/raptor/raptor_bone_24
+      position: {x: 0.057558298, y: -0.11577084, z: -0.3028403}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: creature/raptor/raptor_bone_36
+      parentName: creature/raptor/raptor_bone_24
+      position: {x: 0.028779134, y: -0.05788541, z: -0.15142012}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: creature/raptor/raptor_bone_78
+      parentName: creature/raptor/raptor_bone_12
+      position: {x: -0.23073581, y: -0.003940164, z: -0.11262094}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: creature/raptor/raptor_bone_77
+      parentName: creature/raptor/raptor_bone_7
+      position: {x: 0.014194996, y: 0, z: 0.10763824}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: creature/raptor/raptor_bone_8
+      parentName: creature/raptor/raptor_bone_3
+      position: {x: 0.07287467, y: 0, z: 0.088364124}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: creature/raptor/raptor_bone_76
+      parentName: creature/raptor/raptor_bone_8
+      position: {x: -0.0050451756, y: 0, z: 0.020054817}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: creature/raptor/raptor_bone_72
+      parentName: creature/raptor/raptor_bone_3
+      position: {x: -0.10004198, y: 0, z: -0.33858034}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: creature/raptor/raptor_bone_73
+      parentName: creature/raptor/raptor_bone_3
+      position: {x: -0.10004198, y: 0, z: -0.33858034}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: creature/raptor/raptor_bone_74
+      parentName: creature/raptor/raptor_bone_3
+      position: {x: -0.10004198, y: 0, z: -0.33858034}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: creature/raptor/raptor_bone_75
+      parentName: creature/raptor/raptor_bone_3
+      position: {x: -0.10004198, y: 0, z: -0.33858034}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: creature/raptor/raptor_bone_71
+      parentName: creature/raptor/raptor_bone_0
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: creature/raptor/raptor_bone_64
+      parentName: creature/raptor/raptor_rig
+      position: {x: 0.04796721, y: 0, z: 1.9435095}
+      rotation: {x: -0.00000008940697, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: creature/raptor/raptor_bone_65
+      parentName: creature/raptor/raptor_rig
+      position: {x: -0.31315345, y: 0, z: 1.6525724}
+      rotation: {x: -0.00000008940697, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: creature/raptor/raptor_bone_66
+      parentName: creature/raptor/raptor_rig
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.00000008940697, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: creature/raptor/raptor_bone_67
+      parentName: creature/raptor/raptor_rig
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.00000008940697, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: creature/raptor/raptor_bone_68
+      parentName: creature/raptor/raptor_rig
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.00000008940697, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: creature/raptor/raptor_bone_69
+      parentName: creature/raptor/raptor_rig
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.00000008940697, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: creature/raptor/raptor_bone_70
+      parentName: creature/raptor/raptor_rig
+      position: {x: -0.46722153, y: 0, z: 1.1642388}
+      rotation: {x: -0.00000008940697, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: cc46faf27bbfc9b489c0a3cefe63ca14, type: 3}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 2
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

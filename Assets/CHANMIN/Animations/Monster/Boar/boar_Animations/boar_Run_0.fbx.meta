@@ -1,0 +1,458 @@
+fileFormatVersion: 2
+guid: a1e4eb709c6ccd94e937f5f19a04ed17
+ModelImporter:
+  serializedVersion: 21300
+  internalIDToNameTable:
+  - first:
+      74: 6080261571897851776
+    second: Run [0]
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 1
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Run [0]
+      takeName: Run [0]
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 20
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton:
+    - name: boar(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: creature/boar/boar
+      parentName: boar(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: creature/boar/boar_rig
+      parentName: boar(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: creature/boar/boar_bone_0
+      parentName: creature/boar/boar_rig
+      position: {x: 0.14097828, y: 0, z: 0}
+      rotation: {x: -0.00000008940697, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: creature/boar/boar_bone_1
+      parentName: creature/boar/boar_bone_0
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: creature/boar/boar_bone_2
+      parentName: creature/boar/boar_bone_1
+      position: {x: -0.17110154, y: -0.09399913, z: 0.3805108}
+      rotation: {x: -0.45637205, y: 0.6467744, z: -0.36522833, w: -0.4899141}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: creature/boar/boar_bone_3
+      parentName: creature/boar/boar_bone_2
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: creature/boar/boar_bone_5
+      parentName: creature/boar/boar_bone_3
+      position: {x: 0.0210677, y: 0.18691024, z: -0.10754263}
+      rotation: {x: -0.0043388596, y: 0.79711473, z: -0.23158392, w: 0.5576363}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: creature/boar/boar_bone_9
+      parentName: creature/boar/boar_bone_5
+      position: {x: 0.06176825, y: -0.06379448, z: -0.22073829}
+      rotation: {x: -0.022949481, y: -0.11612729, z: 0.017607363, w: 0.99281305}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: creature/boar/boar_bone_17
+      parentName: creature/boar/boar_bone_9
+      position: {x: -0.047010407, y: -0.012005292, z: -0.14045328}
+      rotation: {x: 0.029963344, y: -0.73202026, z: 0.20130381, w: 0.65017337}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: creature/boar/boar_bone_58
+      parentName: creature/boar/boar_bone_17
+      position: {x: -0.034170784, y: 0.016604342, z: -0.15944624}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: creature/boar/boar_bone_59
+      parentName: creature/boar/boar_bone_17
+      position: {x: -0.034170784, y: 0.016604342, z: -0.15944624}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: creature/boar/boar_bone_6
+      parentName: creature/boar/boar_bone_3
+      position: {x: 0.021067597, y: -0.18690975, z: -0.10754198}
+      rotation: {x: 0.040252104, y: 0.7806583, z: 0.23687544, w: 0.576925}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: creature/boar/boar_bone_10
+      parentName: creature/boar/boar_bone_6
+      position: {x: 0.061769404, y: 0.06379373, z: -0.22073825}
+      rotation: {x: 0.04610615, y: -0.13386783, z: -0.026873235, w: 0.9895613}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: creature/boar/boar_bone_18
+      parentName: creature/boar/boar_bone_10
+      position: {x: -0.047011282, y: 0.012003981, z: -0.14045414}
+      rotation: {x: -0.07716288, y: -0.70728064, z: -0.17751734, w: 0.67991734}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: creature/boar/boar_bone_57
+      parentName: creature/boar/boar_bone_18
+      position: {x: -0.03417094, y: -0.00973691, z: -0.15944606}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: creature/boar/boar_bone_60
+      parentName: creature/boar/boar_bone_18
+      position: {x: -0.03417094, y: -0.00973691, z: -0.15944606}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: creature/boar/boar_bone_7
+      parentName: creature/boar/boar_bone_3
+      position: {x: 0.29220584, y: 0, z: -0.09361929}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: creature/boar/boar_bone_11
+      parentName: creature/boar/boar_bone_7
+      position: {x: 0.2913351, y: 0, z: 0.014199555}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: creature/boar/boar_bone_19
+      parentName: creature/boar/boar_bone_11
+      position: {x: 0.150047, y: 0, z: -0.15192696}
+      rotation: {x: -0.009871549, y: -0.36798453, z: -0.0009718834, w: 0.92977905}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: creature/boar/boar_bone_22
+      parentName: creature/boar/boar_bone_19
+      position: {x: 0.015020728, y: 0, z: -0.152579}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: creature/boar/boar_bone_25
+      parentName: creature/boar/boar_bone_22
+      position: {x: 0.021804214, y: 0, z: -0.08044544}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: creature/boar/boar_bone_16
+      parentName: creature/boar/boar_bone_7
+      position: {x: 0.2913351, y: 0, z: 0.014199555}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: creature/boar/boar_bone_20
+      parentName: creature/boar/boar_bone_16
+      position: {x: -0.044266462, y: 0.11561513, z: -0.06396359}
+      rotation: {x: 0.7342755, y: -0.004996752, z: -0.23703946, w: 0.63610274}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: creature/boar/boar_bone_23
+      parentName: creature/boar/boar_bone_20
+      position: {x: -0.0592685, y: 0.025542764, z: -0.184134}
+      rotation: {x: 0.16147493, y: 0.6043646, z: 0.031861167, w: 0.7795218}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: creature/boar/boar_bone_26
+      parentName: creature/boar/boar_bone_23
+      position: {x: 0.13546291, y: -0.031884648, z: -0.08172597}
+      rotation: {x: -0.08432496, y: -0.7270061, z: 0.14386389, w: 0.66607404}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: creature/boar/boar_bone_28
+      parentName: creature/boar/boar_bone_26
+      position: {x: -0.085743636, y: 0.008776031, z: -0.09572378}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: creature/boar/boar_bone_21
+      parentName: creature/boar/boar_bone_16
+      position: {x: -0.044266313, y: -0.11561509, z: -0.06396377}
+      rotation: {x: -0.38088828, y: 0.0028274648, z: 0.12221524, w: 0.916504}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: creature/boar/boar_bone_24
+      parentName: creature/boar/boar_bone_21
+      position: {x: -0.059272584, y: -0.025536664, z: -0.18413427}
+      rotation: {x: -0.25143403, y: 0.57596874, z: -0.19211437, w: 0.75374603}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: creature/boar/boar_bone_27
+      parentName: creature/boar/boar_bone_24
+      position: {x: 0.13546509, y: 0.031876214, z: -0.081726015}
+      rotation: {x: 0.13865636, y: -0.75437856, z: -0.05497267, w: 0.6392695}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: creature/boar/boar_bone_29
+      parentName: creature/boar/boar_bone_27
+      position: {x: -0.08574247, y: -0.008784122, z: -0.095723905}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: creature/boar/boar_bone_48
+      parentName: creature/boar/boar_bone_7
+      position: {x: 0.009430349, y: 0, z: 0.10059899}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: creature/boar/boar_bone_50
+      parentName: creature/boar/boar_bone_7
+      position: {x: 0.15118957, y: -0.0027313875, z: 0.08236122}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: creature/boar/boar_bone_43
+      parentName: creature/boar/boar_bone_3
+      position: {x: 0.11927405, y: 0, z: -0.14206934}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: creature/boar/boar_bone_44
+      parentName: creature/boar/boar_bone_3
+      position: {x: 0.11927405, y: 0, z: -0.14206934}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: creature/boar/boar_bone_45
+      parentName: creature/boar/boar_bone_3
+      position: {x: 0.11927405, y: 0, z: -0.14206934}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: creature/boar/boar_bone_46
+      parentName: creature/boar/boar_bone_3
+      position: {x: 0.11927405, y: 0, z: -0.14206934}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: creature/boar/boar_bone_47
+      parentName: creature/boar/boar_bone_3
+      position: {x: 0.11927405, y: 0, z: -0.14206934}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: creature/boar/boar_bone_4
+      parentName: creature/boar/boar_bone_2
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: creature/boar/boar_bone_8
+      parentName: creature/boar/boar_bone_4
+      position: {x: -0.20157966, y: 0, z: -0.090777874}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: creature/boar/boar_bone_12
+      parentName: creature/boar/boar_bone_8
+      position: {x: -0.038375854, y: 0.06503839, z: 0.048737884}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: creature/boar/boar_bone_13
+      parentName: creature/boar/boar_bone_8
+      position: {x: -0.038373947, y: -0.06504167, z: 0.048731685}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: creature/boar/boar_bone_14
+      parentName: creature/boar/boar_bone_8
+      position: {x: -0.060365703, y: 0, z: -0.10568327}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: creature/boar/boar_bone_15
+      parentName: creature/boar/boar_bone_8
+      position: {x: -0.3563944, y: 0, z: -0.1296829}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: creature/boar/boar_bone_49
+      parentName: creature/boar/boar_bone_8
+      position: {x: 0.01539889, y: -0.0029474352, z: -0.2542569}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: creature/boar/boar_bone_51
+      parentName: creature/boar/boar_bone_8
+      position: {x: -0.36488104, y: 0.0004959242, z: -0.20074458}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: creature/boar/boar_bone_52
+      parentName: creature/boar/boar_bone_8
+      position: {x: 0.03066051, y: 0, z: -0.23937044}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: creature/boar/boar_bone_53
+      parentName: creature/boar/boar_bone_8
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: creature/boar/boar_bone_54
+      parentName: creature/boar/boar_bone_8
+      position: {x: -0.19794713, y: -0.0071323863, z: -0.023203135}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: creature/boar/boar_bone_55
+      parentName: creature/boar/boar_bone_8
+      position: {x: -0.19794713, y: -0.0071323863, z: -0.023203135}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: creature/boar/boar_bone_56
+      parentName: creature/boar/boar_bone_8
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: creature/boar/boar_bone_30
+      parentName: creature/boar/boar_rig
+      position: {x: -0.16246778, y: 0, z: 1.1527778}
+      rotation: {x: -0.00000008940697, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: creature/boar/boar_bone_31
+      parentName: creature/boar/boar_rig
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.00000008940697, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: creature/boar/boar_bone_32
+      parentName: creature/boar/boar_rig
+      position: {x: -0.16246776, y: 0, z: 1.013889}
+      rotation: {x: -0.00000008940697, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: creature/boar/boar_bone_33
+      parentName: creature/boar/boar_rig
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.00000008940697, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: creature/boar/boar_bone_34
+      parentName: creature/boar/boar_rig
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.00000008940697, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: creature/boar/boar_bone_35
+      parentName: creature/boar/boar_rig
+      position: {x: -0.40335318, y: 0.10292198, z: 0}
+      rotation: {x: -0.00000008940697, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: creature/boar/boar_bone_36
+      parentName: creature/boar/boar_rig
+      position: {x: -0.3422451, y: 0.08500449, z: 0}
+      rotation: {x: -0.00000008940697, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: creature/boar/boar_bone_37
+      parentName: creature/boar/boar_rig
+      position: {x: -0.36301062, y: -0.06824466, z: 0}
+      rotation: {x: -0.00000008940697, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: creature/boar/boar_bone_38
+      parentName: creature/boar/boar_rig
+      position: {x: -0.36301062, y: -0.06824466, z: 0}
+      rotation: {x: -0.00000008940697, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: creature/boar/boar_bone_39
+      parentName: creature/boar/boar_rig
+      position: {x: 0.11405839, y: 0.08372608, z: 0}
+      rotation: {x: -0.00000008940697, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: creature/boar/boar_bone_40
+      parentName: creature/boar/boar_rig
+      position: {x: 0.1784708, y: 0.1619637, z: 0}
+      rotation: {x: -0.00000008940697, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: creature/boar/boar_bone_41
+      parentName: creature/boar/boar_rig
+      position: {x: 0.11435073, y: -0.0842944, z: 0}
+      rotation: {x: -0.00000008940697, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: creature/boar/boar_bone_42
+      parentName: creature/boar/boar_rig
+      position: {x: 0.08818061, y: -0.16220589, z: 0}
+      rotation: {x: -0.00000008940697, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: 0263c2d62f2b4d74b98e731f154a61da, type: 3}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 2
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,499 @@
+fileFormatVersion: 2
+guid: 51989a225057d3b479fb35bb73a4dedf
+ModelImporter:
+  serializedVersion: 21300
+  internalIDToNameTable:
+  - first:
+      74: -1499757529067404034
+    second: AttackUnarmed [2]
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 1
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton:
+    - name: groneRed(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: creature/gronn/gronn
+      parentName: groneRed(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: creature/gronn/gronn_rig
+      parentName: groneRed(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: creature/gronn/gronn_bone_0
+      parentName: creature/gronn/gronn_rig
+      position: {x: 0.03307743, y: 0, z: 1.3211083}
+      rotation: {x: -0.00000008940697, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: creature/gronn/gronn_bone_1
+      parentName: creature/gronn/gronn_bone_0
+      position: {x: 0.0038566624, y: 0, z: 0.032085896}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: creature/gronn/gronn_bone_3
+      parentName: creature/gronn/gronn_bone_1
+      position: {x: -0.030922346, y: 0, z: 0.20056652}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: creature/gronn/gronn_bone_8
+      parentName: creature/gronn/gronn_bone_3
+      position: {x: 0.041304782, y: 0, z: 0.28362703}
+      rotation: {x: 0.000000059092777, y: 0.10685274, z: 0.00000002072925, w: 0.99427485}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: creature/gronn/gronn_bone_13
+      parentName: creature/gronn/gronn_bone_8
+      position: {x: -0.31942457, y: 0, z: 0.37725127}
+      rotation: {x: -0.000000011835351, y: 0.49722153, z: 0.00000008915854, w: 0.8676236}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: creature/gronn/gronn_bone_18
+      parentName: creature/gronn/gronn_bone_13
+      position: {x: -0.20377085, y: 0, z: 0.01652217}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: creature/gronn/gronn_bone_23
+      parentName: creature/gronn/gronn_bone_18
+      position: {x: -0.04956588, y: 0, z: -0.12391472}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: creature/gronn/gronn_bone_69
+      parentName: creature/gronn/gronn_bone_23
+      position: {x: -0.11849153, y: -0.0014483441, z: -0.052925825}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: creature/gronn/gronn_bone_24
+      parentName: creature/gronn/gronn_bone_18
+      position: {x: -0.2623593, y: 0, z: -0.012207985}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: creature/gronn/gronn_bone_66
+      parentName: creature/gronn/gronn_bone_18
+      position: {x: -0.20086475, y: 0, z: -0.19405842}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: creature/gronn/gronn_bone_67
+      parentName: creature/gronn/gronn_bone_18
+      position: {x: -1.105213, y: -0.0000021690082, z: -0.8515998}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: creature/gronn/gronn_bone_68
+      parentName: creature/gronn/gronn_bone_18
+      position: {x: -1.2821914, y: -0.0000017333399, z: 0.04448986}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: creature/gronn/gronn_bone_14
+      parentName: creature/gronn/gronn_bone_8
+      position: {x: -0.23286666, y: 0.16944717, z: 0.10053444}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: creature/gronn/gronn_bone_19
+      parentName: creature/gronn/gronn_bone_14
+      position: {x: 0.11661886, y: 0.37315482, z: 0.1245836}
+      rotation: {x: 0.000000014733805, y: 0.47982368, z: 0.2800734, w: 0.83146137}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: creature/gronn/gronn_bone_25
+      parentName: creature/gronn/gronn_bone_19
+      position: {x: -0.060102485, y: 0.2592796, z: -0.44419968}
+      rotation: {x: 0.028041095, y: -0.08430309, z: -0.06265558, w: 0.9940729}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: creature/gronn/gronn_bone_29
+      parentName: creature/gronn/gronn_bone_25
+      position: {x: -0.34730646, y: 0.18133903, z: -0.39942706}
+      rotation: {x: 0.10725007, y: -0.042230844, z: -0.10250983, w: 0.98803127}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: creature/gronn/gronn_bone_31
+      parentName: creature/gronn/gronn_bone_29
+      position: {x: -0.14606327, y: -0.107337415, z: -0.1415082}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: creature/gronn/gronn_bone_37
+      parentName: creature/gronn/gronn_bone_31
+      position: {x: -0.06342035, y: -0.10670447, z: -0.14742666}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: creature/gronn/gronn_bone_32
+      parentName: creature/gronn/gronn_bone_29
+      position: {x: -0.2281698, y: 0.002749443, z: -0.23985313}
+      rotation: {x: 0.0279276, y: 0.18079534, z: -0.024494879, w: 0.982819}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: creature/gronn/gronn_bone_38
+      parentName: creature/gronn/gronn_bone_32
+      position: {x: -0.063667476, y: 0.002640009, z: -0.26981205}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: creature/gronn/gronn_bone_33
+      parentName: creature/gronn/gronn_bone_29
+      position: {x: -0.1250686, y: 0.16038781, z: -0.22448438}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: creature/gronn/gronn_bone_39
+      parentName: creature/gronn/gronn_bone_33
+      position: {x: -0.06226653, y: 0.045385838, z: -0.26631194}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: creature/gronn/gronn_bone_71
+      parentName: creature/gronn/gronn_bone_29
+      position: {x: 0.00000008940697, y: -0.00000011920929, z: -0.00000011920929}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: creature/gronn/gronn_bone_72
+      parentName: creature/gronn/gronn_bone_29
+      position: {x: 0.053995937, y: -0.014793694, z: -0.21381235}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: creature/gronn/gronn_bone_73
+      parentName: creature/gronn/gronn_bone_29
+      position: {x: 0.053995904, y: -0.014793694, z: -0.21381223}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: creature/gronn/gronn_bone_15
+      parentName: creature/gronn/gronn_bone_8
+      position: {x: -0.23286618, y: -0.16944723, z: 0.10052848}
+      rotation: {x: -0.000000010895241, y: 0.15150303, z: 0.45378333, w: 0.87813866}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: creature/gronn/gronn_bone_20
+      parentName: creature/gronn/gronn_bone_15
+      position: {x: 0.1166184, y: -0.37315413, z: 0.124583125}
+      rotation: {x: -0.5444403, y: -0.28943503, z: 0.24261236, w: 0.74896693}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: creature/gronn/gronn_bone_26
+      parentName: creature/gronn/gronn_bone_20
+      position: {x: -0.06010226, y: -0.25928068, z: -0.44419432}
+      rotation: {x: -0.041578695, y: -0.21209571, z: 0.13244432, w: 0.9673392}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: creature/gronn/gronn_bone_30
+      parentName: creature/gronn/gronn_bone_26
+      position: {x: -0.347306, y: -0.18133885, z: -0.39942634}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: creature/gronn/gronn_bone_34
+      parentName: creature/gronn/gronn_bone_30
+      position: {x: -0.2281694, y: -0.0027486086, z: -0.23985279}
+      rotation: {x: -0.12695968, y: 0.14870638, z: 0.028503424, w: 0.98028326}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: creature/gronn/gronn_bone_40
+      parentName: creature/gronn/gronn_bone_34
+      position: {x: -0.06366795, y: -0.0026404262, z: -0.26981252}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: creature/gronn/gronn_bone_35
+      parentName: creature/gronn/gronn_bone_30
+      position: {x: -0.12506804, y: -0.16038762, z: -0.22448467}
+      rotation: {x: -0.074032694, y: 0.13342437, z: -0.005428959, w: 0.9882751}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: creature/gronn/gronn_bone_41
+      parentName: creature/gronn/gronn_bone_35
+      position: {x: -0.062266707, y: -0.045386076, z: -0.26631105}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: creature/gronn/gronn_bone_36
+      parentName: creature/gronn/gronn_bone_30
+      position: {x: -0.1460639, y: 0.10733753, z: -0.14150834}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: creature/gronn/gronn_bone_42
+      parentName: creature/gronn/gronn_bone_36
+      position: {x: -0.06341934, y: 0.106704175, z: -0.14742637}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: creature/gronn/gronn_bone_70
+      parentName: creature/gronn/gronn_bone_30
+      position: {x: 0.03001049, y: 0.030062139, z: -0.03974235}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: creature/gronn/gronn_bone_74
+      parentName: creature/gronn/gronn_bone_30
+      position: {x: 0.04107952, y: -0.05481589, z: -0.2269581}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: creature/gronn/gronn_bone_62
+      parentName: creature/gronn/gronn_bone_8
+      position: {x: 0.48761782, y: -0.027700521, z: 0.116990805}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: creature/gronn/gronn_bone_63
+      parentName: creature/gronn/gronn_bone_8
+      position: {x: -0.31320837, y: 0.002358304, z: -0.24315643}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: creature/gronn/gronn_bone_64
+      parentName: creature/gronn/gronn_bone_8
+      position: {x: 0.43896762, y: -0.019223267, z: 0.13158226}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: creature/gronn/gronn_bone_65
+      parentName: creature/gronn/gronn_bone_8
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: creature/gronn/gronn_bone_56
+      parentName: creature/gronn/gronn_bone_1
+      position: {x: -0.14503016, y: 1.3812796, z: -0.0066529512}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: creature/gronn/gronn_bone_57
+      parentName: creature/gronn/gronn_bone_1
+      position: {x: -0.14503016, y: 1.3812796, z: -0.0066529512}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: creature/gronn/gronn_bone_58
+      parentName: creature/gronn/gronn_bone_1
+      position: {x: -0.14503016, y: 1.3812796, z: -0.0066529512}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: creature/gronn/gronn_bone_59
+      parentName: creature/gronn/gronn_bone_1
+      position: {x: -0.36888838, y: -0.0682422, z: 0.26812124}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: creature/gronn/gronn_bone_2
+      parentName: creature/gronn/gronn_bone_0
+      position: {x: -0.0035082474, y: 0, z: -0.032451034}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: creature/gronn/gronn_bone_4
+      parentName: creature/gronn/gronn_bone_2
+      position: {x: 0.253968, y: 0, z: -0.09827614}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: creature/gronn/gronn_bone_9
+      parentName: creature/gronn/gronn_bone_4
+      position: {x: 0.22894038, y: 0, z: -0.18390332}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: creature/gronn/gronn_bone_5
+      parentName: creature/gronn/gronn_bone_2
+      position: {x: -0.019759852, y: 0.2122092, z: -0.056048393}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: creature/gronn/gronn_bone_10
+      parentName: creature/gronn/gronn_bone_5
+      position: {x: -0.20012216, y: 0.10392533, z: -0.59698874}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: creature/gronn/gronn_bone_16
+      parentName: creature/gronn/gronn_bone_10
+      position: {x: 0.42238525, y: -0.017056704, z: 0.0015749335}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: creature/gronn/gronn_bone_21
+      parentName: creature/gronn/gronn_bone_16
+      position: {x: -0.10193459, y: 0.052222252, z: -0.2996448}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: creature/gronn/gronn_bone_27
+      parentName: creature/gronn/gronn_bone_21
+      position: {x: -0.14287473, y: 0.004554987, z: -0.2179682}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: creature/gronn/gronn_bone_61
+      parentName: creature/gronn/gronn_bone_10
+      position: {x: -0.000000014901161, y: 0, z: 0}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: creature/gronn/gronn_bone_6
+      parentName: creature/gronn/gronn_bone_2
+      position: {x: -0.019759852, y: -0.21220973, z: -0.056047797}
+      rotation: {x: 0.018633602, y: -0.030529603, z: -0.00093168655, w: 0.9993597}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: creature/gronn/gronn_bone_11
+      parentName: creature/gronn/gronn_bone_6
+      position: {x: -0.20012167, y: -0.10392483, z: -0.5969887}
+      rotation: {x: 0.060561642, y: 0.3116695, z: 0.028339176, w: 0.9478351}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: creature/gronn/gronn_bone_17
+      parentName: creature/gronn/gronn_bone_11
+      position: {x: 0.4223847, y: 0.01705715, z: 0.0015746951}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: creature/gronn/gronn_bone_22
+      parentName: creature/gronn/gronn_bone_17
+      position: {x: -0.10193446, y: -0.05222216, z: -0.2996458}
+      rotation: {x: -0.22460316, y: -0.18727423, z: 0.5164176, w: 0.80485696}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: creature/gronn/gronn_bone_28
+      parentName: creature/gronn/gronn_bone_22
+      position: {x: -0.14287455, y: -0.004555434, z: -0.21796761}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: creature/gronn/gronn_bone_60
+      parentName: creature/gronn/gronn_bone_11
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: creature/gronn/gronn_bone_7
+      parentName: creature/gronn/gronn_bone_2
+      position: {x: -0.2513122, y: 0, z: -0.1159091}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: creature/gronn/gronn_bone_12
+      parentName: creature/gronn/gronn_bone_7
+      position: {x: 0.084239215, y: 0, z: -0.3059501}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: creature/gronn/gronn_bone_43
+      parentName: creature/gronn/gronn_rig
+      position: {x: -0.557304, y: 0, z: 2.4293854}
+      rotation: {x: -0.00000008940697, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: creature/gronn/gronn_bone_44
+      parentName: creature/gronn/gronn_rig
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.00000008940697, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: creature/gronn/gronn_bone_45
+      parentName: creature/gronn/gronn_rig
+      position: {x: -0.85640395, y: 0.085771985, z: 1.8087637}
+      rotation: {x: -0.00000008940697, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: creature/gronn/gronn_bone_46
+      parentName: creature/gronn/gronn_rig
+      position: {x: -0.7683442, y: 0.1447739, z: 1.3347073}
+      rotation: {x: -0.00000008940697, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: creature/gronn/gronn_bone_47
+      parentName: creature/gronn/gronn_rig
+      position: {x: -0.78601927, y: 0.31256908, z: 0}
+      rotation: {x: -0.00000008940697, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: creature/gronn/gronn_bone_48
+      parentName: creature/gronn/gronn_rig
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.00000008940697, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: creature/gronn/gronn_bone_49
+      parentName: creature/gronn/gronn_rig
+      position: {x: -0.7987318, y: -0.24904889, z: 0}
+      rotation: {x: -0.00000008940697, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: creature/gronn/gronn_bone_50
+      parentName: creature/gronn/gronn_rig
+      position: {x: -0.5911158, y: 0.30715382, z: 0}
+      rotation: {x: -0.00000008940697, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: creature/gronn/gronn_bone_51
+      parentName: creature/gronn/gronn_rig
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.00000008940697, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: creature/gronn/gronn_bone_52
+      parentName: creature/gronn/gronn_rig
+      position: {x: -0.7035822, y: 0.2828596, z: 0}
+      rotation: {x: -0.00000008940697, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: creature/gronn/gronn_bone_53
+      parentName: creature/gronn/gronn_rig
+      position: {x: -0.7547539, y: -0.30899277, z: 0}
+      rotation: {x: -0.00000008940697, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: creature/gronn/gronn_bone_54
+      parentName: creature/gronn/gronn_rig
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.00000008940697, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: creature/gronn/gronn_bone_55
+      parentName: creature/gronn/gronn_rig
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.00000008940697, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: 9420b6b25e0ca5c43b06ad7bf23caf07, type: 3}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 2
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

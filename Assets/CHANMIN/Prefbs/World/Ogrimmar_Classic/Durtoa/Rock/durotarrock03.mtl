@@ -1,0 +1,3 @@
+newmtl mat_durotarrock03
+illum 1
+map_Kd ..\..\..\..\..\interface\glues\models\ui_mainmenu\durotarrock03.png

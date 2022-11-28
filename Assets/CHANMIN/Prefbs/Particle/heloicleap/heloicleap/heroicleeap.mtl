@@ -1,0 +1,12 @@
+#
+# mtl file for heroicleeap.obj obj file
+#
+
+newmtl spells/warrior_heroic_leap.m2_Geoset_000_Lum
+illum 2
+Kd 0.000000 0.000000 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 1.000000 0.211765 0.000000
+Ke 0.000000 0.000000 0.000000
+Ns 0.000000
+map_Kd heroicleeap_crackedground.png
